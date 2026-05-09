@@ -1,6 +1,6 @@
 {
   "name": "@mubtaxim/project-context-mcp",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "MCP server that provides workspace context, persistent development notes, project scaffolding, and development directives across sessions.",
   "mcpName": "io.github.mubtaxim/project-context",
   "main": "dist/index.js",
