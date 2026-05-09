@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mubtaxim/project-context",
+  "description": "MCP server that provides workspace context, persistent development notes, project scaffolding, and development directives across sessions. Scans any workspace for source files and documentation, stores per-project notes that persist across sessions, and supports flexible project initialization.",
+  "repository": {
+    "url": "https://github.com/MubTaXim/project-context-mcp.git",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@mubtaxim/project-context-mcp",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

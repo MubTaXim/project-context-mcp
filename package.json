@@ -1,0 +1,41 @@
+{
+  "name": "@mubtaxim/project-context-mcp",
+  "version": "1.0.0",
+  "description": "MCP server that provides workspace context, persistent development notes, project scaffolding, and development directives across sessions.",
+  "mcpName": "io.github.mubtaxim/project-context",
+  "main": "dist/index.js",
+  "bin": {
+    "project-context-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MubTaXim/project-context-mcp.git"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "project-context",
+    "development-tools",
+    "ai-tools"
+  ],
+  "author": "MubTaXim",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.5.0"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
